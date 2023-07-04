@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+body,
+#map {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #b0b0b0;
+}
+
+#map {
+	height: calc(100vh - 68px);
+}
+
+header {
+	background: white;
+	border-bottom: 3px solid #d78a00;
+}
+
+nav {
+	margin: 0 auto;
+	height: 65px;
+	width: 1200px;
+}
+
+nav img {
+	height: 45px;
+	padding-top: 10px;
+}
+
+.leaflet-popup-content-wrapper {
+	border-radius: 5px !important;
+	padding: 0.35rem 0;
+	width: 300px;
+	font-size: 1rem;
+}
+
+.leaflet-bottom.leaflet-right {
+	display: none !important;
+}
